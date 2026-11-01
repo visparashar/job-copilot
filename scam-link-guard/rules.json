@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "updated": "2026-11-01",
+  "note": "Scam Link Guard rules file. Data only: brands scammers imitate, official domains, known scam domains and literal scam phrases. Never code.",
+  "brands": [],
+  "officialDomains": {},
+  "blockDomains": [],
+  "allowDomains": [],
+  "scamPhrases": [
+    { "text": "your electricity will be disconnected tonight", "weight": 45 },
+    { "text": "electricity connection will be cut tonight", "weight": 45 },
+    { "text": "pay the redelivery fee", "weight": 40 },
+    { "text": "your package could not be delivered due to an incomplete address", "weight": 40 },
+    { "text": "you have been selected for a work from home part time job", "weight": 40 },
+    { "text": "earn daily by liking youtube videos", "weight": 45 }
+  ]
+}
